@@ -57,6 +57,10 @@ function (_React$Component) {
   return IssueFilter;
 }(React.Component);
 
+{
+  /* aif baa pa */
+}
+
 function IssueTable(props) {
   var issueRows = props.issues.map(function (issue) {
     return React.createElement(IssueRow, {

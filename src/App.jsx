@@ -18,7 +18,7 @@ return (
 }
 
 
-
+{/* aif baa pa */}
 
 function IssueTable(props){
     const issueRows = props.issues.map(issue => <IssueRow key={issue.id} issue={issue} />);
